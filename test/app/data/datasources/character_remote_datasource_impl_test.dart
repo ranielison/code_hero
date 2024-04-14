@@ -62,7 +62,7 @@ void main() {
     });
 
     test(
-      'should return server faulure when response code is 400',
+      'should return server failure when response code is 400',
       () async {
         /// arrange
         dioAdapter.onPost(
