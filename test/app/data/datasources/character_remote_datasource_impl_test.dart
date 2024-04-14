@@ -45,7 +45,6 @@ void main() {
 
       dioAdapter.onGet(
         '/v1/public/characters',
-        queryParameters: getCharactersParams.toJson(),
         (server) => server.reply(
           200,
           decode,
