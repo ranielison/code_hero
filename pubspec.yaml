@@ -1,0 +1,73 @@
+name: code_hero
+description: Code Hero Challenge"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  ### Gerenciamento de estados
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+
+  ### Tratamento de erros e comparação de instâncias
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  ### Client http
+  dio: ^5.4.3
+
+  ### Animação de carregamento
+  shimmer: ^3.0.0
+
+  # Injeção de dependências
+  get_it: ^7.6.7
+  
+  #Exibição otimizada de imagens
+  cached_network_image: ^3.3.1
+  
+  # Variáveis de ambiente
+  flutter_dotenv: ^5.1.0
+
+  # Geração de hash
+  crypto: ^3.0.3
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  ### Testes
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+  http_mock_adapter: ^0.6.1
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          weight: 700
+    
+    - family: Marvel
+      fonts:
+        - asset: assets/fonts/marvel/marvel_regular.ttf
+          weight: 400
