@@ -10,9 +10,9 @@ Aplicativo de busca e exibição de heróis da Marvel.
 | Dart       | v3.2.6             | Instalado automaticamente com o Flutter                               |
 
 ## Vamos começar 🚀
+- Crie um arquivo chamado .env na raiz do projeto e insira as informações da sua public key e private key, que podem ser encontradas na sua conta da [API da Marvel](https://developer.marvel.com/) use o arquivo .env-example como base para preencher as variváveis
 
 Rode os comandos abaixo.
-- Crie um arquivo chamado .env na raiz do projeto e insira as informações da sua public key e private key, que podem ser encontradas na sua conta da [API da Marvel](https://developer.marvel.com/) use o arquivo .env-example como base para preencher as variváveis
 
 - `flutter pub get` para instalar as dependências.
 
