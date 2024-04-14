@@ -34,7 +34,7 @@ Tela de apresentação do app
 
 ##### Home
 
-Tela com a listagem dos héróis, campo de busca e paginalção
+Tela com a listagem dos héróis, campo de busca e paginação
 
 ###### Visão Mobile
   <img src="/assets/screenshots/home.png?raw=true" alt="Home" />
@@ -60,7 +60,7 @@ Detalhes de um herói específico
 
 ###### Carregamento do app
 
-Ao abrir o app uma tela temática da Marvel é exibida, e após 2 segundos o app redireciona para tela home, onde há o carregamento dos primeiros resultados.
+Ao abrir o app uma tela temática da Marvel é exibida e após 2 segundos o app redireciona para tela home, onde há o carregamento dos primeiros resultados.
 
 <img src="/assets/screenshots/splash.gif?raw=true" alt="ViewSelector" />
 
